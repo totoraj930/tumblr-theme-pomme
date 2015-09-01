@@ -19,37 +19,37 @@
 	<!-- THEME OPTION -->
 
 	<!-- Custom Text -->
-	<meta name="text:Read More Text" content="Read More" />
+	<meta name="text:Read More Text" content="Read More">
 
 	<!-- Custom Facebook -->
-	<meta name="text:OGP Facebook Admin Number" content="" />
-	<meta name="text:OGP Facebook App ID" content="" />
-	<meta name="text:OGP Facebook Page URL" content="" />
-	<meta name="text:OGP Facebook URL" content="" />
+	<meta name="text:OGP Facebook Admin Number" content="">
+	<meta name="text:OGP Facebook App ID" content="">
+	<meta name="text:OGP Facebook Page URL" content="">
+	<meta name="text:OGP Facebook URL" content="">
 
 	<!-- Custom Other -->
-	<meta name="text:Google Analytics ID" content="" />
-	<meta name="text:Disqus Shortname" content="" />
+	<meta name="text:Google Analytics ID" content="">
+	<meta name="text:Disqus Shortname" content="">
 
 	<!-- Custom Enable -->
-	<meta name="if:Enable Header Icon" content="1" />
-	<meta name="if:Enable Header Description" content="1" />
-	<meta name="if:Enable Index Post Foot" content="1" />
+	<meta name="if:Enable Header Icon" content="1">
+	<meta name="if:Enable Header Description" content="1">
+	<meta name="if:Enable Index Post Foot" content="1">
 
 	<!-- Custom Share Buttom -->
-	<meta name="if:Enable Tweet Button" content="1" />
-	<meta name="if:Enable Like Button" content="0" />
-	<meta name="if:Enable Hatena Button" content="1" />
-	<meta name="if:Enable Plus1 Button" content="1" />
-	<meta name="if:Enable Pocket Button" content="1" />
+	<meta name="if:Enable Tweet Button" content="1">
+	<meta name="if:Enable Like Button" content="0">
+	<meta name="if:Enable Hatena Button" content="1">
+	<meta name="if:Enable Plus1 Button" content="1">
+	<meta name="if:Enable Pocket Button" content="1">
 
 	<!-- Custom Color -->
-	<meta name="color:Color 1" content="#f8edeb" />
-	<meta name="color:Color 2" content="#ff5a5a" />
-	<meta name="color:Color 3" content="#ffffff" />
-	<meta name="color:Text Color 1" content="#303030" />
-	<meta name="color:Text Color 2" content="#77483f" />
-	<meta name="color:Text Color 3" content="#ed928a" />
+	<meta name="color:Color 1" content="#f8edeb">
+	<meta name="color:Color 2" content="#ff5a5a">
+	<meta name="color:Color 3" content="#ffffff">
+	<meta name="color:Text Color 1" content="#303030">
+	<meta name="color:Text Color 2" content="#77483f">
+	<meta name="color:Text Color 3" content="#ed928a">
 	<!-- END THEME OPTION -->
 
 	<!-- Blog Title -->
@@ -58,57 +58,57 @@
 
 	<!-- SEO -->
 	{block:TagPage}
-		<meta name="robots" content="noindex,follow" />
+		<meta name="robots" content="noindex,follow">
 	{/block:TagPage}
 	{block:DayPage}
-		<meta name="robots" content="noindex,follow" />
+		<meta name="robots" content="noindex,follow">
 	{block:DayPage}
 
 	<meta charset="UTF-8">
 	{block:Description}
-		<meta name="description" content="{MetaDescription}" />
+		<meta name="description" content="{MetaDescription}">
 	{/block:Description}
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="{Favicon}">
 	<link rel="alternate" type="application/rss+xml" href="{RSS}">
 	<link rel="apple-touch-icon" href="{PortraitURL-128}">
 
 	<!-- OGP -->
-	<meta property="og:title" content="{block:PostTitle}{PostTitle} | {/block:PostTitle}{Title}" />
-	<meta property="og:site_name" content="{Title}" />
+	<meta property="og:title" content="{block:PostTitle}{PostTitle} | {/block:PostTitle}{Title}">
+	<meta property="og:site_name" content="{Title}">
 	{block:Description}
-		<meta property="og:description" content="{MetaDescription}" />
+		<meta property="og:description" content="{MetaDescription}">
 	{/block:Description}
 	{block:PermalinkPage}
 		<link rel="canonical" href="{Permalink}"/><!-- url正規化 -->
-		<meta property="og:type" content="article" />
-		<meta property="og:url" content="{Permalink}" />
-		<meta property="og:image" content="{PortraitURL-128}" />
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="{Permalink}">
+		<meta property="og:image" content="{PortraitURL-128}">
 		{block:Posts}
 			{block:Photo}
-				<meta property="og:image" content="{PhotoURL-HighRes}" />
+				<meta property="og:image" content="{PhotoURL-HighRes}">
 			{/block:Photo}
 		{/block:Posts}
 	{/block:PermalinkPage}
 	{block:IndexPage}
 		<link rel="canonical" href="{BlogURL}"/><!-- url正規化 -->
-		<meta property="og:type" content="blog" />
-		<meta property="og:url" content="{BlogURL}" />
-		<meta property="og:image" content="{PortraitURL-128}" />
+		<meta property="og:type" content="blog">
+		<meta property="og:url" content="{BlogURL}">
+		<meta property="og:image" content="{PortraitURL-128}">
 	{/block:IndexPage}
 
 	<!-- Facebook -->
 	{block:IfOGPFacebookAdminNumber}
-		<meta property="fb:admins" content="{text:OGP Facebook Admin Number}" />
+		<meta property="fb:admins" content="{text:OGP Facebook Admin Number}">
 	{/block:IfOGPFacebookAdminNumber}
 	{block:IfOGPFacebookAppID}
-		<meta property="fb:app_id" content="{text:OGP Facebook App ID}" />
+		<meta property="fb:app_id" content="{text:OGP Facebook App ID}">
 	{/block:IfOGPFacebookAppID}
 	{block:IfOGPFacebookPageURL}
-		<meta property="article:publisher" content="{text:OGP Facebook Page URL}" />
+		<meta property="article:publisher" content="{text:OGP Facebook Page URL}">
 	{/block:IfOGPFacebookPageURL}
 	{block:IfOGPFacebookURL}
-		<meta property="article:author" content="{text:OGP Facebook URL}" />
+		<meta property="article:author" content="{text:OGP Facebook URL}">
 	{/block:IfOGPFacebookURL}
 	<!-- END OGP -->
 
@@ -494,7 +494,9 @@
 				</div>
 
 				<!-- POST FOOT -->
-				{block:IfEnableIndexPostFoot}
+
+				<!-- Permalink -->
+				{block:PermalinkPage}
 				<footer class="post-foot">
 
 					<!-- POST TAGS -->
@@ -519,7 +521,6 @@
 								<li class="like-and-reblog">{ReblogButton size="20"}</li>
 							{/block:date}
 
-							{block:PermalinkPage}
 							{block:IfEnableTweetButton}<!-- Twitter -->
 								<li>
 									<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -532,7 +533,7 @@
 							{/block:IfEnableLikeButton}
 							{block:IfEnableHatenaButton}<!-- Hatena -->
 								<li>
-									<a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+									<a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 								</li>
 							{/block:IfEnableHatenaButton}
 							{block:IfEnablePlus1Button}<!-- Google Plus -->
@@ -545,7 +546,6 @@
 									<a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a><script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
 								</li>
 							{/block:IfEnablePocketButton}
-							{/block:PermalinkPage}
 						</ul>
 					</div>
 					<!-- END POST SHARE -->
@@ -588,7 +588,53 @@
 					<!-- END DISQUS -->
 
 				</footer>
+				{/block:PermalinkPage}
+
+
+				<!-- Index -->
+
+
+				{block:IndexPage}
+				{block:IfEnableIndexPostFoot}
+				<footer class="post-foot">
+
+					<!-- POST TAGS -->
+					{block:HasTags}
+					<div class="post-foot-section">
+						<p class="post-foot-heading">Tags:</p>
+						<ul class="post-tag-list">
+							{block:Tags}
+							<li><a href="{TagURL}">{Tag}</a></li>
+							{/block:Tags}
+						</ul>
+					</div>
+					{/block:HasTags}
+					<!-- END POST TAGS -->
+
+					<!-- POST SHARE -->
+					<div class="post-foot-section">
+						<p class="post-foot-heading">Share:</p>
+						<ul class="post-share-list">
+							{block:date}
+								<li class="like-and-reblog">{LikeButton size="20"}</li>
+								<li class="like-and-reblog">{ReblogButton size="20"}</li>
+							{/block:date}
+						</ul>
+					</div>
+					<!-- END POST SHARE -->
+
+					<!-- POST NOTES -->
+					{block:PostNotes}
+					<div class="post-foot-section">
+						<p class="post-foot-heading">Notes: <span>{NoteCount}</span></p>
+					</div>
+					{/block:PostNotes}
+					<!-- END POST NOTES -->
+
+
+				</footer>
 				{/block:IfEnableIndexPostFoot}
+				{/block:IndexPage}
 				<!-- END POST FOOT -->
 
 			</article>
