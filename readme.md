@@ -26,7 +26,6 @@ Pommeはシンプルでフラットな無料のTumblrテーマです。
 |Enable Header Description|ヘッダーにTumblrの説明文を表示します。|
 |Enable Header Icon|ヘッダーにTumblrのアイコンを表示します。|
 |Enable Index Post Foot|Indexページでポストフッターを表示します。|
-|Enable Side Profile|サイドバーにプロフィールを表示します。|
 |Enable Tweet Button|記事パーマリンクに「ツイートボタン」を表示します。|
 |Enable Like Button|記事パーマリンクに「Facebookいいねボタン」を表示します。 （`OGP Facbook Admin Number`の入力を推奨します）|
 |Enable Hatena Button|記事パーマリンクに「はてなブックマークボタン」を表示します。|
