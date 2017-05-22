@@ -1,4 +1,4 @@
-#Pomme
+# Pomme
 Pommeはシンプルでフラットな無料のTumblrテーマです。  
 無駄のない1カラムです。  
 機能は最小限になっています。  
@@ -7,7 +7,7 @@ Pommeはシンプルでフラットな無料のTumblrテーマです。
 * [紹介サイト(仮)](http://totoraj930.github.io/tumblr/pomme)
 
 
-##インストールとカスタマイズ(Install and Customize)
+## インストールとカスタマイズ(Install and Customize)
 * [こちら](https://www.tumblr.com/theme/40038)のページからテーマをインストールします。
 * 下記の設定項目の説明を見ながらカスタマイズページの「テーマオプション」で設定を行ってください。
 	* 「詳細設定」の「モバイルレイアウトを使用する」のチェックを外すとスマートフォンでもこのテーマが適用されます。
@@ -46,13 +46,13 @@ Pommeはシンプルでフラットな無料のTumblrテーマです。
 [FacebookのOGP設定で必要なadminsのIDをサクッと確認する方法](http://jmatsuzaki.com/archives/12666)
 
 
-##著者(Author)
+## 著者(Author)
 **Reona Oshima (totoraj)**
 * [http://totoraj.net](http://totoraj.net/)
 * [Twitter: @totoraj930](https://twitter.com/totoraj930/)
 
 
-##ライセンス(License)
+## ライセンス(License)
 Copyright &copy; 2015 Reona Oshima (totoraj)  
 This work is released  under the MIT License.  
 <http://opensource.org/licenses/mit-license.php>
